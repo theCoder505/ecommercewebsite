@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(231, 237, 238);
+}
+ul{
+    padding: 10px 40px;
+}
+h3 {
+    color: red;
+}
+span,  .fa-star, .fa-star-half-o {
+    color: orange;
+}
+span i:last-child{ color: rgb(41, 39, 39);}
+
+i {
+    color: rgb(94, 87, 87);
+}
+.review img{
+    display: inline-block;
+    width: 195px;
+    height: 100px;
+    margin: 3px;
+}
+
+
+
+
+
+
+
+
+
+.customerCare{
+
+    background-color: #2e2e54;
+    color: whitesmoke;
+}
+.customerCare li{
+    list-style: none;
+}
+.customerCare a{
+
+    color: whitesmoke;
+}
+
+.leftItems, .rightItems, .imaging {
+    display: inline-block;
+} 
+
+
+
+
+.rightItems{
+    float: left;
+    position: relative;
+    display: block;
+}
+
+
+.images{
+
+ margin-right: 20px;
+ margin-top: 20px;
+width: 100px;
+height: 100px;
+display: inline-block;
+}
+
+
+.images2 {
+width: 120px ;
+height: 30px;
+}
+
+
+
+
+.paymentProcedure{
+    background-color: thistle;
+    padding: 40px;
+}
+.paymentProcedure img{
+    display: inline-block;
+    padding: 10px;
+    width: 150px;
+    height: 75px;
+}
+
+footer{
+    background-color: black;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+.bill i{
+    color: skyblue;
+}
+
+.bill input{
+margin: 10px;
+    padding: 10px 30px;
+    background: rgb(185, 179, 179);
+}
+
+
+.rdbuy input{
+margin: 10px;
+    padding: 10px 30px;
+    background: rgb(185, 179, 179);
+}
+
+
+.delivery{
+    padding: 20px 30px;
+    border: 1px solid blue;
+    background: rgb(228, 233, 235);
+    
+}
+
+
+.imagesofbuy, .buywrite {
+    display: inline-block;
+}
+
+.BUYing{
+    padding: 40px;
+    background-color: snow;
+    position: fixed;
+    z-index: 100;
+}
+
+#BUY{
+    display: none;
+}
+
+#messaging{
+    display: none;
+}
+
+#messaging textarea {
+    background-color: #bec8d0;
+}
+.send{
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 760px) {
+
+
+
+.review img {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    margin: 2px;
+}
+
+.paymentProcedure img {
+    display: inline-block;
+    padding: 10px;
+    width: 70px;
+    height: 50px;
+}
+
+footer h3, h4{
+    font-size: 0.80rem;
+}
+}
