@@ -5,6 +5,14 @@
     list-style: none;
     box-sizing: border-box;
 }
+
+
+.h1, h1 {
+    font-size: 2.5rem;
+    background-color: #00000052;
+    padding: 10px 0;
+}
+
 a {
     color: black;
 }
@@ -18,7 +26,11 @@ h3, h5{
 } 
    .bottomtopnav ul li a {color: white;}
 
-
+   .hairwriting h1 {
+    color: #fdfdfc;
+    text-shadow: 6px 6px 5px;
+    font-size: 46px;
+}
 
 .searchbar{
     float: left;
@@ -35,6 +47,7 @@ h3, h5{
     width: 100%;
     z-index: 100;
 }
+
 .navbar h3, .navbar h4{
     display: inline;
 }
@@ -523,7 +536,27 @@ footer{
         display: block;
         position: fixed;
     }
- 
+  .card img{
+      height: 130px;
+  }
+  .card h3, h5 {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: arial;
+}
+.card .btn {
+    padding: 2px;
+    font-size: 0.8rem;
+}
+
+
+.hairwriting h1 {
+
+    color: #fdfdfc;
+    text-shadow: 6px 6px 5px;
+    font-size: 25px;
+
+}
   }
 
 
