@@ -136,7 +136,7 @@ margin: 10px;
 .BUYing{
     padding: 40px;
     background-color: snow;
-    position: fixed;
+    position: relative;
     z-index: 100;
 }
 
